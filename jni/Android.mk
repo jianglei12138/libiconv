@@ -13,5 +13,5 @@ LOCAL_SRC_FILES := \
 	libcharset/localcharset.c \
 	libcharset/relocatable.c \
 
-include $(BUILD_SHARED_LIBRARY)
-#include $(BUILD_STATIC_LIBRARY)
+# include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
